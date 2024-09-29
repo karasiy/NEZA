@@ -259,6 +259,6 @@
 
 @media (max-width: 500px) {
     .dialog{
-        margin-top: none;
+        margin-top: 10px;
     }
 } 
