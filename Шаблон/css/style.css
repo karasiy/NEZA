@@ -1,0 +1,265 @@
+.header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    border:  1px solid red;
+    background: #FA8072;
+    
+}
+
+.header__logo{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 300px;
+    width: 200px;
+    background: none;
+    border: none;
+}
+
+.header__img-logo{
+    height: 70px;
+    margin-right: 7px;
+}
+
+.header__text-logo{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Unbounded", sans-serif;
+}
+
+.header__navs{
+    display: flex;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__nav{
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header__button{
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 150px;
+    height: 50px;
+    background: #f2d566;
+    border: 3px solid #d7ab00;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__button-lk{
+    margin-top: 21px;
+    margin-right: 300px;
+    background: #f2d566;
+    border: 4px solid black;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.header__button-lk:hover{
+    border: 4px solid #d7ab00;
+}
+
+
+
+.dialog__test{
+    background: grey;
+    width: 100%;
+    height: 5000px;
+    
+}
+
+
+
+.dialog{
+    
+    margin: auto;
+    margin-top: 100px;
+    background: white;
+    border-radius: 20px;
+    width: 500px;
+    height: 700px;
+    border: 1px solid red;
+  
+}
+
+.dialog__img{
+    width: 60px;
+    height: 60px;
+    margin-left: 210px;
+    margin-top: 40px;
+}
+
+.dialog__text{
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Unbounded", sans-serif;
+}
+
+
+
+.dialog__input {
+    box-sizing: border-box;
+    width: 320px;
+    margin: 20px auto;
+}
+.dialog__Email {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.dialog__Email input {
+    background-color: #FFF;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 16px;
+    line-height: 16px;  
+    height: 50px;
+    outline: 0;
+    padding: 0 20px;
+    width: 100%;
+}
+.dialog__Email label {
+    color: green;
+    font-family: Verdana, sans-serif;   
+    background-color: #FFF;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 5px 10px;
+    pointer-events: none;
+    position: absolute;
+    transition: all 200ms;
+    top: 12px;
+    left: 10px;
+    background-color: #FFF;
+}
+.dialog__Email input:focus + label,
+.dialog__Email input:not(:placeholder-shown) + label{
+    top: -10px;
+    left: 10px;
+    font-size: 11px; 
+    background-color: red;
+    padding: 2px 10px;
+}
+
+.dialog__Password {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.dialog__Password input {
+    background-color: #FFF;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 16px;
+    line-height: 16px;  
+    height: 50px;
+    outline: 0;
+    padding: 0 20px;
+    width: 100%;
+}
+.dialog__Password label {
+    color: rgb(13, 111, 182);
+    font-family: Verdana, sans-serif;   
+    background-color: #FFF;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 5px 10px;
+    pointer-events: none;
+    position: absolute;
+    transition: all 200ms;
+    top: 12px;
+    left: 10px;
+    background-color: #FFF;
+}
+.dialog__Password input:focus + label,
+.dialog__Password input:not(:placeholder-shown) + label{
+    top: -10px;
+    left: 10px;
+    font-size: 11px; 
+    background-color: rgb(230, 9, 145);
+    padding: 2px 10px;
+}
+
+.dialog__link{
+    margin-top: 10px;
+    display: block;
+    margin-left: 80px;
+}
+
+.dialog__link:hover{
+    text-decoration: underline;
+    
+}
+
+.dialog__button{
+    width: 380px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.dialog__button:hover{
+    color: aliceblue;
+    background: black;
+}
+
+.dialog__login_using{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 210px;
+}
+
+.dialog__button_test{
+    margin-left: 190px;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border-radius: 30px;
+}
+
+.dialog__button_tests{
+    width: 50px;
+    height: 50px;
+    background: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+@media (max-width: 1024px) {
+    
+} 
+
+
+@media (max-width: 720px) {
+    .dialog{
+        margin-top: 250px;
+    }
+} 
+
+
+@media (max-width: 500px) {
+    .dialog{
+        margin-top: 5px;
+    }
+} 
