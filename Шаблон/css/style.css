@@ -21,6 +21,10 @@
     margin-right: 7px;
 }
 
+.header__img-menu{
+    display: none;
+}
+
 .header__text-logo{
     margin-top: 20px;
     font-size: 30px;
@@ -84,7 +88,7 @@
     margin-top: 100px;
     background: white;
     border-radius: 20px;
-    width: 500px;
+    
     height: 700px;
     border: 1px solid red;
   
@@ -259,7 +263,39 @@
 
 
 @media (max-width: 500px) {
+
+    .header__logo{
+        margin-left: 20px;
+        display: none;
+        
+    }
+
+    .header__navs{
+        display: none;
+    }
+
+    .header__button{
+     display: none;
+    }
+
+    .header__img-menu{
+        width: 90px;
+        height: 90px;
+        display: block;
+    }
+
+    .header__button-lk{
+        margin-left: 310px;
+    }
+
+.dialog__test{
+  padding: 0;
+  margin: auto;
+}
+
     .dialog{
-        margin-top: 5px;
+        margin-top: 0;
+        
+        height: 831px;
     }
 } 
