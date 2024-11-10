@@ -301,10 +301,7 @@
 
 @media (max-width: 500px) {
 
-    .body{
-        position: fixed;
-    }
-
+    
     .header__logo{
         margin-left: 20px;
         display: none;
