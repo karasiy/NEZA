@@ -334,6 +334,23 @@
         height: 831px;
     }
 
+    .dialog__img{
+        margin-left: 140px;
+    }
+
+    .dialog__button{
+      margin-left: 5px;
+      width: 320px;
+    }
+
+    .dialog__login_using{
+        margin-left: 130px;
+    }
+
+    .dialog__button_test{
+        margin-left: 110px;
+    }
+
     .gift__body{
         width: 80%;
     }
