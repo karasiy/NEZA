@@ -1,3 +1,7 @@
+.body{
+    position: fixed;
+}
+
 .header{
     display: flex;
     width: 100%;
