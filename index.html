@@ -6,19 +6,32 @@
 		<title>NEZA</title>
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body class="body">
 		<dialog class="dialog__test">
-			
-				<div class="dialog">
-					<img class="dialog__img" src="logo.png">
-				 <p class="dialog__text">Login to profile</p>
-				 <div class="dialog__input">
-					<div class="dialog__Email" >
-						<input  placeholder=" " />
+			<div class="dialog">
+				<img class="dialog__img" src="logo.png" />
+				<p class="dialog__text">Login to profile</p>
+				<div class="dialog__input">
+					<div class="dialog__Email">
+						<input placeholder=" " />
 						<label>Email</label>
 					</div>
 					<div class="dialog__Password">
@@ -26,39 +39,268 @@
 						<label>Password</label>
 					</div>
 				</div>
-				 <a class="dialog__link">I don’t remember the password</a>
-				 <button class="dialog__button">Login</button>
-				 <button class="dialog__button">Create a profile</button>
-				 <p class="dialog__login_using">Login using</p>
-				 <button class="dialog__button_test"></button>
-				 <button class="dialog__button_tests"></button>
-				</div>
-				
+				<a class="dialog__link">I don’t remember the password</a>
+				<button class="dialog__button">Login</button>
+				<button class="dialog__button">Create a profile</button>
+				<p class="dialog__login_using">Login using</p>
+				<button class="dialog__button_test"></button>
+				<button class="dialog__button_tests"></button>
+			</div>
 		</dialog>
-		
-       <header class="header">
-         <a class="header__logo">
-			<img class="header__img-logo" src="logo.png">
-			<p class="header__text-logo">NEZA</p>
-			
-		 </a>
-		 <img class="header__img-menu" src="menu.png">
-		 <div class="header__navs">
-			<a class="header__nav">Главная</a>
-			<a class="header__nav">Уровни</a>
-			<a class="header__nav">Биржа</a>
-			<a class="header__nav">Призы</a>
-		 </div>
-		 <button class="header__button">Узнать</button>
-		 <button class="header__button-lk">Войти</button>
-	   </header>
-	   <div class="gift__body">
-          <p class="gift__text">Приглашайте друзей и получайте бонусы</p>
-		  <button class="gift__button">Пригласить</button>
-	   </div>
 
-		
-		
+		<header class="header">
+			<a class="header__logo">
+				<img class="header__img-logo" src="logo.png" />
+				<p class="header__text-logo">NEZA</p>
+			</a>
+			<img class="header__img-menu" src="menu.png" />
+			<div class="header__navs">
+				<a class="header__nav">Главная</a>
+				<a class="header__nav">Уровни</a>
+				<a class="header__nav">Биржа</a>
+				<a class="header__nav">Призы</a>
+			</div>
+			<button class="header__button">Узнать</button>
+			<button class="header__button-lk">Войти</button>
+		</header>
+		<div class="gift__body">
+			<p class="gift__text">Приглашайте друзей и получайте бонусы</p>
+			<button class="gift__button">Пригласить</button>
+		</div>
+		<div class="info">
+			<div class="info__flex">
+				<div class="info__conducting">
+					<p class="info__conducting__text">Введение в игровую индустрию</p>
+					<img class="info__conducting__img" src="logo.png" />
+				</div>
+				<div class="accordion" id="accordionExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button
+								class="accordion-button"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapseOne"
+								aria-expanded="true"
+								aria-controls="collapseOne"
+							>
+								1. О курсе
+							</button>
+						</h2>
+						<div
+							id="collapseOne"
+							class="accordion-collapse collapse show"
+							data-bs-parent="#accordionExample"
+						>
+							<div class="accordion-body">
+								<strong>Курс разроботки сайтов.</strong> это когда берут
+								несколько литровых банок и разом засувают(*Алсысбек)
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapseTwo"
+								aria-expanded="false"
+								aria-controls="collapseTwo"
+							>
+								2. Введение в геймдев
+							</button>
+						</h2>
+						<div
+							id="collapseTwo"
+							class="accordion-collapse collapse"
+							data-bs-parent="#accordionExample"
+						>
+							<div class="accordion-body">
+								<strong>ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ.</strong> агуагу,
+								ЫЫЫЫЫЫЫЫЫЫЫЫЫ.(*Марк)
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapseThree"
+								aria-expanded="false"
+								aria-controls="collapseThree"
+							>
+								3. Разработка игр
+							</button>
+						</h2>
+						<div
+							id="collapseThree"
+							class="accordion-collapse collapse"
+							data-bs-parent="#accordionExample"
+						>
+							<div class="accordion-body">
+								<img src="pravda.jpg" />
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapseFour"
+								aria-expanded="false"
+								aria-controls="collapseThree"
+							>
+								4. Визуальная составляющая игры
+							</button>
+						</h2>
+						<div
+							id="collapseFour"
+							class="accordion-collapse collapse"
+							data-bs-parent="#accordionExample"
+						>
+							<div class="accordion-body">
+								<strong>Это тело аккордеона третьего элемента.</strong> По
+								умолчанию оно скрыто, пока плагин свертывания не добавит
+								соответствующие классы, которые мы используем для стилизации
+								каждого элемента. Эти классы управляют общим внешним видом, а
+								также отображением и скрытием с помощью переходов CSS. Вы можете
+								изменить все это с помощью собственного CSS или переопределить
+								наши переменные по умолчанию. Также стоит отметить, что
+								практически любой HTML может быть помещен в
+								<code>.accordion-body</code>, хотя переход ограничивает
+								переполнение.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapseFive"
+								aria-expanded="false"
+								aria-controls="collapseThree"
+							>
+								5. Киберспорт
+							</button>
+						</h2>
+						<div
+							id="collapseFive"
+							class="accordion-collapse collapse"
+							data-bs-parent="#accordionExample"
+						>
+							<div class="accordion-body">
+								<strong>Киберспорт -</strong> это гонка улитки и леопарта(*Дима)
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapseSix"
+								aria-expanded="false"
+								aria-controls="collapseThree"
+							>
+								6. Про Skillbox
+							</button>
+						</h2>
+						<div
+							id="collapseSix"
+							class="accordion-collapse collapse"
+							data-bs-parent="#accordionExample"
+						>
+							<div class="accordion-body">
+								<strong>Это тело аккордеона третьего элемента.</strong> По
+								умолчанию оно скрыто, пока плагин свертывания не добавит
+								соответствующие классы, которые мы используем для стилизации
+								каждого элемента. Эти классы управляют общим внешним видом, а
+								также отображением и скрытием с помощью переходов CSS. Вы можете
+								изменить все это с помощью собственного CSS или переопределить
+								наши переменные по умолчанию. Также стоит отметить, что
+								практически любой HTML может быть помещен в
+								<code>.accordion-body</code>, хотя переход ограничивает
+								переполнение.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="recommendats">
+			<h3 class="recommendats__title">Вам может понравиться</h3>
+			<div class="recommendats__recom">
+				<a href="#" class="rec">
+					<div class="rec__layout recommendats__baground">
+						<p class="rec__text">Курс</p>
+						<p class="rec__title">Курс скамера</p>
+						<img class="rec__img" src="payton.png" />
+						<div class="rec__data">
+							<p class="rec__srok">
+								<span class="rec__srok_weight">99</span> дней
+							</p>
+							<p class="rec__srok">
+								<span class="rec__srok_weight">2</span> курса
+							</p>
+						</div>
+					</div></a
+				>
+				<a href="#" class="rec"
+					><div class="rec__layout rec__layout_purple">
+						<p class="rec__text">Курс</p>
+						<p class="rec__title">Курс скамера</p>
+						<img class="rec__img" src="poisk.png" />
+						<div class="rec__data">
+							<p class="rec__srok">
+								<span class="rec__srok_weight">99</span> дней
+							</p>
+							<p class="rec__srok">
+								<span class="rec__srok_weight">2</span> курса
+							</p>
+						</div>
+					</div></a
+				>
+				<a href="#" class="rec">
+					<div class="rec__layout rec__layout_red">
+						<p class="rec__text">Курс</p>
+						<p class="rec__title">Курс скамера</p>
+						<img class="rec__img" src="slurp.png" />
+						<div class="rec__data">
+							<p class="rec__srok">
+								<span class="rec__srok_weight">99</span> дней
+							</p>
+							<p class="rec__srok">
+								<span class="rec__srok_weight">2</span> курса
+							</p>
+						</div>
+					</div></a
+				>
+				<a href="#" class="rec">
+					<div class="rec__layout rec__layout_blue">
+						<p class="rec__text">Курс</p>
+						<p class="rec__title">Курс скамера</p>
+						<img class="rec__img" src="pencil.png" />
+						<div class="rec__data">
+							<p class="rec__srok">
+								<span class="rec__srok_weight">99</span> дней
+							</p>
+							<p class="rec__srok">
+								<span class="rec__srok_weight">2</span> курса
+							</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+
 		<script src="js/main.js"></script>
 	</body>
 </html>
